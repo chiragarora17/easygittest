@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_id: 1
+  post_id: 1
+  decription: MyText
+  like: 1
+  dislike: 1
+  final_answer: false
+
+two:
+  user_id: 1
+  post_id: 1
+  decription: MyText
+  like: 1
+  dislike: 1
+  final_answer: false
