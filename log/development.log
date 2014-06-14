@@ -1,0 +1,696 @@
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 13:27:01 -0700
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/users/sign_in
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 13:27:01 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (86.9ms)
+Warning. Error encountered while saving cache /home/chirag/Git/EasyGift/tmp/cache/sass/885c9dea42922667738cb27006c501179a4fc121/authentications.css.scssc: can't dump anonymous class #<Class:0x00000004340810>
+Compiled authentications.css  (38ms)  (pid 3127)
+Compiled bootstrap-theme.css  (0ms)  (pid 3127)
+Compiled bootstrap.css  (22ms)  (pid 3127)
+Warning. Error encountered while saving cache /home/chirag/Git/EasyGift/tmp/cache/sass/885c9dea42922667738cb27006c501179a4fc121/comments.css.scssc: can't dump anonymous class #<Class:0x00000004340810>
+Compiled comments.css  (1ms)  (pid 3127)
+Warning. Error encountered while saving cache /home/chirag/Git/EasyGift/tmp/cache/sass/885c9dea42922667738cb27006c501179a4fc121/home.css.scssc: can't dump anonymous class #<Class:0x00000004340810>
+Compiled home.css  (1ms)  (pid 3127)
+Warning. Error encountered while saving cache /home/chirag/Git/EasyGift/tmp/cache/sass/885c9dea42922667738cb27006c501179a4fc121/likes.css.scssc: can't dump anonymous class #<Class:0x00000004340810>
+Compiled likes.css  (1ms)  (pid 3127)
+Warning. Error encountered while saving cache /home/chirag/Git/EasyGift/tmp/cache/sass/885c9dea42922667738cb27006c501179a4fc121/registrations.css.scssc: can't dump anonymous class #<Class:0x00000004340810>
+Compiled registrations.css  (1ms)  (pid 3127)
+Warning. Error encountered while saving cache /home/chirag/Git/EasyGift/tmp/cache/sass/885c9dea42922667738cb27006c501179a4fc121/scaffolds.css.scssc: can't dump anonymous class #<Class:0x00000004340810>
+Compiled scaffolds.css  (8ms)  (pid 3127)
+Warning. Error encountered while saving cache /home/chirag/Git/EasyGift/tmp/cache/sass/885c9dea42922667738cb27006c501179a4fc121/users.css.scssc: can't dump anonymous class #<Class:0x00000004340810>
+Compiled users.css  (1ms)  (pid 3127)
+Compiled application.css  (143ms)  (pid 3127)
+Compiled jquery.js  (2ms)  (pid 3127)
+Compiled jquery_ujs.js  (0ms)  (pid 3127)
+Compiled authentications.js  (442ms)  (pid 3127)
+Compiled bootstrap.js  (0ms)  (pid 3127)
+Compiled comments.js  (104ms)  (pid 3127)
+Compiled home.js  (131ms)  (pid 3127)
+Compiled likes.js  (102ms)  (pid 3127)
+Compiled registrations.js  (96ms)  (pid 3127)
+Compiled users.js  (101ms)  (pid 3127)
+Compiled application.js  (1083ms)  (pid 3127)
+Completed 200 OK in 1533ms (Views: 1452.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/likes.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /likes.css - 200 OK (3ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /comments.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /bootstrap.css - 200 OK (4ms)
+
+
+Started GET "/assets/likes.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /likes.js - 200 OK (27ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /comments.js - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /authentications.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /registrations.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /bootstrap-theme.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /authentications.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /registrations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:03 -0700
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-06-14 13:27:33 -0700
+
+
+Started GET "/auth/facebook/callback?code=AQCEPf0EEWCdNG3v0iySBOHA9zuNcvqSOALVx7eoMmr75WBMx2NK8qVWqobGLTCR1yk4oazn5_96eGoQEYQe82fY2ctXY75McUaiPikC1l86fJM3lX6bA7LWEm33wL-xlHqBxYVnCU2kYkG_NU-u6Fp7INUtUZJBt12Mi3pDu4J34pbo9imlAojC-tE2jEBbDCxkJTzMExGfpiRoFZsRLjKWFpRaQ-yJDoiNnPX5cpztg9wViq8aMtJ-eCnSsREJph7bMSAcotA4GXiDkJEn3zjZ9CcjwI0qKewhTWHioBE8RlWTdhTBa_7OV6gnIAIL39w&state=668913f9ca982a4bd60afe8562e4ed0df4742faafd463964" for 127.0.0.1 at 2014-06-14 13:27:49 -0700
+Processing by AuthenticationsController#create as HTML
+  Parameters: {"code"=>"AQCEPf0EEWCdNG3v0iySBOHA9zuNcvqSOALVx7eoMmr75WBMx2NK8qVWqobGLTCR1yk4oazn5_96eGoQEYQe82fY2ctXY75McUaiPikC1l86fJM3lX6bA7LWEm33wL-xlHqBxYVnCU2kYkG_NU-u6Fp7INUtUZJBt12Mi3pDu4J34pbo9imlAojC-tE2jEBbDCxkJTzMExGfpiRoFZsRLjKWFpRaQ-yJDoiNnPX5cpztg9wViq8aMtJ-eCnSsREJph7bMSAcotA4GXiDkJEn3zjZ9CcjwI0qKewhTWHioBE8RlWTdhTBa_7OV6gnIAIL39w", "state"=>"668913f9ca982a4bd60afe8562e4ed0df4742faafd463964", "provider"=>"facebook"}
+  [1m[36mAuthentication Load (0.4ms)[0m  [1mSELECT `authentications`.* FROM `authentications` WHERE `authentications`.`provider` = 'facebook' AND `authentications`.`uid` = '747221348661246' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (12.8ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2014-06-14 08:20:14', `current_sign_in_at` = '2014-06-14 20:27:49', `sign_in_count` = 9, `updated_at` = '2014-06-14 20:27:49' WHERE `users`.`id` = 1
+  [1m[36m (36.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 179ms (ActiveRecord: 50.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 13:27:49 -0700
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 61ms (Views: 58.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /authentications.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/likes.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /likes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/likes.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /likes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 13:27:50 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gkyJGNDiub4+R5aXTUu2Jxsvem6BtxaH/IacLL8RDVo="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 37ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Processing by HomeController#index as HTML
+Redirected to http://localhost:3000/users/sign_in
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 29ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /authentications.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /comments.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/likes.css?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /likes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/likes.js?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /likes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 13:28:13 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Processing by HomeController#profile as HTML
+Redirected to http://localhost:3000/users/sign_in
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 57ms (Views: 56.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /authentications.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /home.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/likes.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /likes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/likes.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:19 -0700
+Served asset /likes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:20 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/auth/facebook" for 127.0.0.1 at 2014-06-14 13:29:24 -0700
+
+
+Started GET "/auth/facebook/callback?code=AQAH1fAM52Tt6Av0M8f2595MIJU-uWY9qwePmXpCc4V7HLkCxFMYvpQfkkiT76QXEkCfh6adikshopNNUYvdrxZraE_GI8RfJpDtDzuCFneknsptzzuIPl_SQtblWRqKhQeZAanbqSOOU2U2R1rrP-NTUD5XG2gTbKGU3KE-0LyBgXR1yGJjce5VW19ahMmI4YAc8X_nbmQnfSrxw4ZM-TFBjeweIn4qS-bbNCoeQpcDrqGF6wHWppnr_BLkd-28dwW83rSw6p3Cs_3UoMAFhV8HGD3crX2OlSsEQMQallEP9oLOQSPIX9X3Fyb44PY0Lt0&state=afc90b06de7f6224b22434171e96bc087f6b5cb02c9b8408" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Processing by AuthenticationsController#create as HTML
+  Parameters: {"code"=>"AQAH1fAM52Tt6Av0M8f2595MIJU-uWY9qwePmXpCc4V7HLkCxFMYvpQfkkiT76QXEkCfh6adikshopNNUYvdrxZraE_GI8RfJpDtDzuCFneknsptzzuIPl_SQtblWRqKhQeZAanbqSOOU2U2R1rrP-NTUD5XG2gTbKGU3KE-0LyBgXR1yGJjce5VW19ahMmI4YAc8X_nbmQnfSrxw4ZM-TFBjeweIn4qS-bbNCoeQpcDrqGF6wHWppnr_BLkd-28dwW83rSw6p3Cs_3UoMAFhV8HGD3crX2OlSsEQMQallEP9oLOQSPIX9X3Fyb44PY0Lt0", "state"=>"afc90b06de7f6224b22434171e96bc087f6b5cb02c9b8408", "provider"=>"facebook"}
+  [1m[35mAuthentication Load (0.3ms)[0m  SELECT `authentications`.* FROM `authentications` WHERE `authentications`.`provider` = 'facebook' AND `authentications`.`uid` = '747221348661246' LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.5ms)[0m  [1mUPDATE `users` SET `last_sign_in_at` = '2014-06-14 20:27:49', `current_sign_in_at` = '2014-06-14 20:29:25', `sign_in_count` = 10, `updated_at` = '2014-06-14 20:29:25' WHERE `users`.`id` = 1[0m
+  [1m[35m (26.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 39ms (ActiveRecord: 28.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /authentications.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/likes.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /likes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/likes.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /likes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:25 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/home/profile" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Processing by HomeController#profile as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered home/profile.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /authentications.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/likes.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /likes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /registrations.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/likes.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /likes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 13:29:31 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/home/test" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Processing by HomeController#test as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered home/test.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 28ms (Views: 25.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authentications.css?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /authentications.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-theme.css?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /bootstrap-theme.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.css?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /registrations.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/likes.css?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /likes.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.css?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /comments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/likes.js?body=1" for 127.0.0.1 at 2014-06-14 13:30:04 -0700
+Served asset /likes.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 13:51:32 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (47.8ms)
+Completed 500 Internal Server Error in 79ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    2: 
+    3:     <div class="container theme-showcase" role="main">
+    4: 
+    5:       <h1> Hey <%= current_user.username %> </h1>
+    6:       <%= link_to "Connect facebook", "/auth/facebook" %>
+    7:       <p> <%= link_to "Logout", destroy_user_session_path, method: :delete %> </p>
+    8:       <%= link_to "Change your password", edit_user_registration_path %>
+  app/views/home/index.html.erb:5:in `_app_views_home_index_html_erb__2139910778145524687_70137991928940'
+
+
+  Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
+  Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.9ms)

@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style type="text/css">
+  .change {
+    color: #ffffff ;
+  }
+  </style>
   <title>EasyGift</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
@@ -18,7 +23,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Bootstrap theme</a>
+          <a class="navbar-brand" href="#">EASY GIFTS</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -48,6 +53,25 @@
     <p class="alert"><%= alert %></p>
 
 <%= yield %>
+
+      <footer>
+        <%= stylesheet_link_tag "footer" %>
+        <div id="footer"  style = "color: #ffffff;background-color: #008080;">
+      <div class="container"  style = "color: #ffffff;background-color: #008080;">
+        <p class="muted credit">&#169; EasyGift Team 
+</p>
+        <blockquote class="blockquote-reverse" style = "background-color: #008080;">
+                <ul class="list-inline">
+                <li><a href="#" style="color: #ffffff;">Help</a></li>
+                <li><a href="privacy" style="color: #ffffff;">Privacy</a></li>            
+                <li><a href="about"  style="color: #ffffff;">About</a></li>
+            </ul>
+
+      </blockquote>
+      </div>
+    </div>
+  
+      </footer>
 
 </body>
 </html>

@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-
+  before_filter :authenticate_user!, :except => [:generate_new_password_email]
 	def edit_password
 		@user = current_user
 	end

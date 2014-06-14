@@ -4,6 +4,12 @@ EasyGift::Application.routes.draw do
   root :to => 'home#index'
   match 'testpage' => 'home#test'
 
+  match 'profile'   => 'home#profile'
+
+  match 'likes/create' => 'likes#create', :via => [:post]
+  match 'comments/final' => 'comments#final', :via => [:post]
+
+
   devise_for :users, :controllers => { :registrations => 'registrations' }
 
   # resources :authentications
@@ -11,6 +17,10 @@ EasyGift::Application.routes.draw do
   match 'auth/:provider/callback' => 'authentications#create'
   match 'users/update_password' => 'users#update_password'
   match 'users/generate_new_password_email' => 'users#generate_new_password_email'
+  post 'gift_requests/:id' => 'comments#create'
+  # gift request  match 'gift_requests/:id' => 'comments#create', :via => [:post]
+  
+  resources :gift_requests
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -62,8 +72,4 @@ EasyGift::Application.routes.draw do
   #   end
 
   # See how all your routes lay out with "rake routes"
-
-  # This is a legacy wild controller route that's not recommended for RESTful applications.
-  # Note: This route will make all actions in every controller accessible via GET requests.
-   match ':controller(/:action(/:id))(.:format)'
 end

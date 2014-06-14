@@ -1,0 +1,101 @@
+<p id="notice"><%= notice %></p>
+
+<h1> Gift Request ID <%= @gift_request.id %> <h1>
+<h4> Created By: <%= @gift_request.username %> </h1>
+<h4> Description: </h4> <br>
+<p> <%= @gift_request.description %> </p> <br>
+	<form action="/likes/create" method="post">
+		<input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+	    <input type="hidden" name="like[user_id]" value="<%= current_user.id %>" />
+	    <input type="hidden" name="like[gift_request_id]" value="<%= @gift_request.id %>" />
+	    <input type="hidden" name="like[status]" value="like" />
+	    <button type="submit" class="btn btn-success btn-xs">Like</button>
+	</form>
+	<form action="/likes/create" method="post">
+		<input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+	    <input type="hidden" name="like[user_id]" value="<%= current_user.id %>" />
+	    <input type="hidden" name="like[gift_request_id]" value="<%= @gift_request.id %>" />
+	    <input type="hidden" name="like[status]" value="dislike" />
+	    <button type="submit" class="btn btn-danger btn-xs">Dislike</button>
+	</form>
+
+<b> Likes/Dislikes </b>
+<br/><br/>
+<%= @gift_request.like_count %> people like this | <%= @gift_request.dislike_count %> people dislike this <br>
+<% if @gift_request_likes %>
+
+	<% @gift_request_likes.each do |like| %>
+
+		<p> <%= like.username %> <%= like.status %>'s this post</p>
+
+	<% end %>
+<% end %>
+<hr>
+<h4> <b>Comments </b> </h4>
+<% if @gift_request_comments %>
+	<% @gift_request_comments.each do |comment| %>
+
+		<p><b> <%= comment.username %> says: </b> <%= comment.description %> <br>
+			<%= comment.like_count %> people like this | <%= comment.dislike_count %> people dislike this <br>
+			<% if comment.final_answer %>
+				<b> FINAL ANSWER </b>
+			<% end %>
+			<% if comment.likes %>
+				<% comment.likes.each do |like| %>
+					| <%= like.username %> <%= like.status %>'s this comment |
+				<% end %>
+
+			<% end %>
+
+		</p>
+	<form action="/likes/create" method="post">
+		<input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+	    <input type="hidden" name="like[user_id]" value="<%= current_user.id %>" />
+	    <input type="hidden" name="like[comment_id]" value="<%= comment.id %>" />
+	    <input type="hidden" name="like[status]" value="like" />
+	    <button type="submit" class="btn btn-success btn-xs">Like</button>
+	</form>
+	<form action="/likes/create" method="post">
+		<input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+	    <input type="hidden" name="like[user_id]" value="<%= current_user.id %>" />
+	    <input type="hidden" name="like[comment_id]" value="<%= comment.id %>" />
+	    <input type="hidden" name="like[status]" value="dislike" />
+	    <button type="submit" class="btn btn-danger btn-xs">Dislike</button>
+	</form>
+
+		<form action="/comments/final" method="post">
+			<input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+		    <input type="hidden" name="comment_id" value="<%= comment.id %>" />
+		    <button type="submit" class="btn btn-primary btn-xs">Final Answer</button>
+		</form>
+
+	<br>
+	<br>
+	<% end %>
+<% end %>
+<br>
+
+ <form action="/gift_requests/<%= @gift_request.id %>" method="post">
+    <P>
+    Make a Comment:</label><br>  
+    <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+    <input type="hidden" name="comment[user_id]" value="<%= current_user.id %>" ><BR>
+    <input type="hidden" name="comment[gift_request_id]" value="<%= @gift_request.id %>"><BR>
+    <input type="text" name="comment[description]" id="newcomment"><BR>
+
+    <input type="submit" value="Submit">
+    </P>
+ </form>
+<hr>
+<h4> <b> Tags </b> </h4>
+<br/><br/>
+<% if @gift_request_tags %>
+	<% @gift_request_tags.each do |tag| %>
+
+		<p> <%= tag.name %> </p>
+
+	<% end %>
+<% end %>
+
+<%= link_to 'Edit', edit_gift_request_path(@gift_request) %> |
+<%= link_to 'Back', gift_requests_path %>

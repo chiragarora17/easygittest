@@ -1,0 +1,31 @@
+<!-- # <%= form_for(@gift_request) do |f| %>
+#   <% if @gift_request.errors.any? %>
+#     <div id="error_explanation">
+#       <h2><%= pluralize(@gift_request.errors.count, "error") %> prohibited this gift_request from being saved:</h2>
+
+#       <ul>
+#       <% @gift_request.errors.full_messages.each do |msg| %>
+#         <li><%= msg %></li>
+#       <% end %>
+#       </ul>
+#     </div>
+#   <% end %>
+
+#   <div class="actions">
+#     <%= f.submit %>
+#   </div>
+# <% end %>
+ -->
+
+ <form action="/gift_requests" method="post">
+    <P>
+    <label for="newgiftrequest">Gift Request</label><br />  
+    <input name="authenticity_token" type="hidden" value="<%= form_authenticity_token %>" />
+    <input type="hidden" name="gift_request[user_id]" value="<%= current_user.id %>" ><BR>
+    <input type="text" name="gift_request[description]" id="newgiftrequest"><BR>
+    <input type="radio" name="gift_request[public]" id="newpostpublic" value="1" checked>Public<br>
+    <input type="radio" name="gift_request[public]" id="newpostprivate" value="0">Private
+
+    <input type="submit" value="Submit">
+    </P>
+ </form>
