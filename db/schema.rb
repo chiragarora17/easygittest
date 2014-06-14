@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140612034618) do
+ActiveRecord::Schema.define(:version => 20140614211147) do
 
   create_table "authentications", :force => true do |t|
     t.integer  "user_id"
@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(:version => 20140612034618) do
     t.boolean  "public"
     t.datetime "created_at",                   :null => false
     t.datetime "updated_at",                   :null => false
+    t.string   "title"
   end
 
   create_table "gift_requests_tags", :force => true do |t|
@@ -74,8 +75,9 @@ ActiveRecord::Schema.define(:version => 20140612034618) do
 
   create_table "tags", :force => true do |t|
     t.string   "name"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.integer  "gift_request_count"
   end
 
   create_table "users", :force => true do |t|

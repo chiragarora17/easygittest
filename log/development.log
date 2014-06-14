@@ -694,3 +694,4480 @@ ActionView::Template::Error (undefined method `username' for nil:NilClass):
   Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.8ms)
   Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
   Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/users/" for 127.0.0.1 at 2014-06-14 16:02:37 -0700
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:02:39 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled bootstrap.css  (0ms)  (pid 9875)
+Compiled footer.css  (0ms)  (pid 9875)
+Compiled signin.css  (0ms)  (pid 9875)
+Compiled application.css  (29ms)  (pid 9875)
+Compiled application.js  (2ms)  (pid 9875)
+Completed 200 OK in 89ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /signin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /footer.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /authentications.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /registrations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:40 -0700
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 125ms (Views: 25.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /gift.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /user.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:02:41 -0700
+Served asset /fb.png - 304 Not Modified (4ms)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:47 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/password" for 127.0.0.1 at 2014-06-14 16:02:49 -0700
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5n0J+5kDpFI5hyfPmnGUW7Yo9HOTj1vOF/EtCEajpMQ=", "user"=>{"email"=>"samkarora@gmail.com"}, "commit"=>"Send me reset password instructions"}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'samkarora@gmail.com' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`reset_password_token` = 'dd1dc83cd15bf77253de18cab017ddc520ca2aa74f162acc851ed0bf1a2a37bf' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `users` SET `reset_password_token` = 'dd1dc83cd15bf77253de18cab017ddc520ca2aa74f162acc851ed0bf1a2a37bf', `reset_password_sent_at` = '2014-06-14 23:02:49', `updated_at` = '2014-06-14 23:02:49' WHERE `users`.`id` = 1
+  [1m[36m (30.9ms)[0m  [1mCOMMIT[0m
+  Rendered devise/mailer/reset_password_instructions.html.erb (0.7ms)
+
+Sent mail to samkarora@gmail.com (2826ms)
+Date: Sat, 14 Jun 2014 16:02:50 -0700
+From: easygift195@gmail.com
+Reply-To: easygift195@gmail.com
+To: samkarora@gmail.com
+Message-ID: <539cd49a9730b_26933f80d806762c58e@chirag-Inspiron-5537.mail>
+Subject: Reset password instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Hello samkarora@gmail.com!</p>
+
+<p>Someone has requested a link to change your password. You can do this through the link below.</p>
+
+<p><a href="http://localhost:3000/users/password/edit?reset_password_token=YjjNSoZs5ZuWsumv9rgz">Change my password</a></p>
+
+<p>If you didn't request this, please ignore this email.</p>
+<p>Your password won't change until you access the link above and create a new one.</p>
+
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 4054ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /signin.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:02:53 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=5n0J%2B5kDpFI5hyfPmnGUW7Yo9HOTj1vOF%2FEtCEajpMQ%3D&user%5Bemail%5D=samkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:03:03 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5n0J+5kDpFI5hyfPmnGUW7Yo9HOTj1vOF/EtCEajpMQ=", "user"=>{"email"=>"samkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 96ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:03:04 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=5n0J%2B5kDpFI5hyfPmnGUW7Yo9HOTj1vOF%2FEtCEajpMQ%3D&user%5Bemail%5D=samkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5n0J+5kDpFI5hyfPmnGUW7Yo9HOTj1vOF/EtCEajpMQ=", "user"=>{"email"=>"samkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 94ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:03:06 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/password/edit?reset_password_token=[FILTERED]" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Processing by Devise::PasswordsController#edit as HTML
+  Parameters: {"reset_password_token"=>"[FILTERED]"}
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/passwords/edit.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /bootstrap.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:16 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started PUT "/users/password" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Processing by Devise::PasswordsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5n0J+5kDpFI5hyfPmnGUW7Yo9HOTj1vOF/EtCEajpMQ=", "user"=>{"reset_password_token"=>"[FILTERED]", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Change my password"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`reset_password_token` = 'dd1dc83cd15bf77253de18cab017ddc520ca2aa74f162acc851ed0bf1a2a37bf' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM `users` WHERE (`users`.`username` = BINARY 'chiragarora17' AND `users`.`id` != 1) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM `users` WHERE (`users`.`username` = BINARY 'chiragarora17' AND `users`.`id` != 1) LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  UPDATE `users` SET `encrypted_password` = '$2a$10$rZiv0wL2iYWvB.Shb0nJiudbbkSBpI.TgjhhtyD8NvotBzHDyOz12', `reset_password_token` = NULL, `reset_password_sent_at` = NULL, `updated_at` = '2014-06-14 23:03:22' WHERE `users`.`id` = 1
+  [1m[36m (30.8ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `users` SET `reset_password_token` = 'YjjNSoZs5ZuWsumv9rgz', `last_sign_in_at` = '2014-06-14 22:24:32', `current_sign_in_at` = '2014-06-14 23:03:22', `sign_in_count` = 12, `updated_at` = '2014-06-14 23:03:22' WHERE `users`.`id` = 1[0m
+  [1m[35m (30.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 223ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /footer.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:22 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=5n0J%2B5kDpFI5hyfPmnGUW7Yo9HOTj1vOF%2FEtCEajpMQ%3D&user%5Bemail%5D=samkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:03:25 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5n0J+5kDpFI5hyfPmnGUW7Yo9HOTj1vOF/EtCEajpMQ=", "user"=>{"email"=>"samkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:03:25 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:25 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:25 -0700
+Served asset /bootstrap.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:25 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:26 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:26 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:26 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:26 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:26 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:26 -0700
+Served asset /authentications.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:26 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:26 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:26 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Processing by Devise::PasswordsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:03:38 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/home" for 127.0.0.1 at 2014-06-14 16:03:58 -0700
+
+ActionController::RoutingError (No route matches [GET] "/users/home"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.7ms)
+
+
+Started GET "/userhome" for 127.0.0.1 at 2014-06-14 16:04:02 -0700
+
+ActionController::RoutingError (No route matches [GET] "/userhome"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/home/userhome" for 127.0.0.1 at 2014-06-14 16:04:12 -0700
+
+ActionController::RoutingError (No route matches [GET] "/home/userhome"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Processing by HomeController#profile as HTML
+  Rendered home/profile.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 13ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:40 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Processing by HomeController#profile as HTML
+  Rendered home/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /application.css - 304 Not Modified (37ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:51 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Processing by HomeController#profile as HTML
+  Rendered home/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:53 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Processing by HomeController#profile as HTML
+  Rendered home/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 15ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /bootstrap.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:04:55 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/testpage" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Processing by HomeController#test as HTML
+  Rendered home/test.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /bootstrap.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:00 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:05:52 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Processing by HomeController#profile as HTML
+  Rendered home/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 44ms (Views: 44.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:00 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Processing by HomeController#profile as HTML
+  Rendered home/profile.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 54ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /footer.css - 304 Not Modified (25ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /signin.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /authentications.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /registrations.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:09 -0700
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Processing by HomeController#profile as HTML
+  Rendered home/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:10 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Processing by HomeController#profile as HTML
+  Rendered home/profile.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/registrations.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /registrations.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:06:11 -0700
+Served asset /application.js - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Compiled jquery-ui-1.10.4.custom.min.css  (0ms)  (pid 10659)
+Compiled bootstrap.css.map  (0ms)  (pid 10659)
+Compiled application.css  (34ms)  (pid 10659)
+Compiled jquery-ui-1.10.4.custom.js  (2ms)  (pid 10659)
+Compiled autocomplete-rails.js  (0ms)  (pid 10659)
+Compiled application.js  (37ms)  (pid 10659)
+Completed 200 OK in 160ms (Views: 160.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 200 OK (24ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /footer.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 200 OK (4ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /autocomplete-rails.js - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /signin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /authentications.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /application.js - 200 OK (31ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:12:24 -0700
+Served asset /bootstrap.css.map - 200 OK (6ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 124ms (Views: 24.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /bootstrap.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /gift.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /fb.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:12:26 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=samkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:12:30 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"samkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 119ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:30 -0700
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:12:30 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:30 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:30 -0700
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:30 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:30 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:12:30 -0700
+Served asset /signin.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:30 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:30 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:31 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:31 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:31 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:12:31 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:12:31 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:12:31 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:12:31 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:12:31 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=samkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:13:24 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"samkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 97ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:24 -0700
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:24 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:13:24 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:24 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:24 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:24 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:24 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:24 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:24 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:25 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:25 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:25 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:25 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:13:25 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:25 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:13:25 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:13:25 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:13:25 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:13:55 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 85ms (Views: 84.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /bootstrap.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /footer.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /signin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /authentications.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /application.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:13:56 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 105ms (Views: 25.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (3ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /gift.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /user.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:13:57 -0700
+Served asset /fb.png - 304 Not Modified (1ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=samkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"samkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 96ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:14:01 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered registrations/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 20ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:14:13 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"username"=>"chiragarora17", "email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'chiragkarora@gmail.com' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM `users` WHERE `users`.`username` = BINARY 'chiragarora17' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered registrations/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 203ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:14:21 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-06-14 16:14:30 -0700
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"username"=>"chiragkarora", "email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.1ms)[0m  SELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'chiragkarora@gmail.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `users` WHERE `users`.`username` = BINARY 'chiragkarora' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`confirmation_token` = '8e4aa7fb9b19667f34c550476f3ffd78bcc0562f849c609267fd5b3a7a871dd3' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`confirmation_sent_at`, `confirmation_token`, `confirmed_at`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `unconfirmed_email`, `updated_at`, `username`) VALUES ('2014-06-14 23:14:31', '8e4aa7fb9b19667f34c550476f3ffd78bcc0562f849c609267fd5b3a7a871dd3', NULL, '2014-06-14 23:14:31', NULL, NULL, 'chiragkarora@gmail.com', '$2a$10$PxzKsbhqMB972KY0hcUm2.nVyQbp4KkT9uhoYh19rxVDubDTDnrLS', NULL, NULL, NULL, NULL, NULL, 0, NULL, '2014-06-14 23:14:31', 'chiragkarora')[0m
+  Rendered devise/mailer/confirmation_instructions.html.erb (1.0ms)
+
+Sent mail to chiragkarora@gmail.com (2554ms)
+Date: Sat, 14 Jun 2014 16:14:31 -0700
+From: easygift195@gmail.com
+Reply-To: easygift195@gmail.com
+To: chiragkarora@gmail.com
+Message-ID: <539cd757bcfbe_2a113fd8444247ec767@chirag-Inspiron-5537.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome chiragkarora@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=1G_yFTwwyp_TzJiBXBRV">Confirm my account</a></p>
+
+  [1m[35m (16.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 3557ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /signin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:14:34 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:14:36 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=chiragkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 96ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:39 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:40 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:14:40 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:14:40 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:14:40 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=chiragkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 96ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:14:42 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/userhome" for 127.0.0.1 at 2014-06-14 16:15:55 -0700
+Processing by HomeController#userhome as HTML
+  Rendered home/userhome.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `username' for nil:NilClass):
+    34: 
+    35:     <div class="container theme-showcase" role="main">
+    36: 
+    37:       <h1> Hey <%= current_user.username %> </h1>
+    38:       <%= link_to "Connect facebook", "/auth/facebook" %>
+    39:       <p> <%= link_to "Logout", destroy_user_session_path, method: :delete %> </p>
+    40:       <%= link_to "Change your password", edit_user_registration_path %>
+  app/views/home/userhome.html.erb:37:in `_app_views_home_userhome_html_erb__1797796393397843854_70197953137200'
+
+
+  Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.9ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=chiragkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:16:04 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 97ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /application.js - 304 Not Modified (40ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:16:05 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (64.1ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (144.8ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (1.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateAuthentications (20140604213559)
+  [1m[35m (62.4ms)[0m  CREATE TABLE `authentications` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `provider` varchar(255), `uid` varchar(255), `message` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (32.7ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140604213559')[0m
+Migrating to DeviseCreateUsers (20140604214129)
+  [1m[35m (59.6ms)[0m  CREATE TABLE `users` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `email` varchar(255) DEFAULT '' NOT NULL, `encrypted_password` varchar(255) DEFAULT '' NOT NULL, `username` varchar(255), `reset_password_token` varchar(255), `reset_password_sent_at` datetime, `remember_created_at` datetime, `sign_in_count` int(11) DEFAULT 0 NOT NULL, `current_sign_in_at` datetime, `last_sign_in_at` datetime, `current_sign_in_ip` varchar(255), `last_sign_in_ip` varchar(255), `confirmation_token` varchar(255), `confirmed_at` datetime, `confirmation_sent_at` datetime, `unconfirmed_email` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (123.4ms)[0m  [1mCREATE UNIQUE INDEX `index_users_on_email` ON `users` (`email`)[0m
+  [1m[35m (122.3ms)[0m  CREATE UNIQUE INDEX `index_users_on_reset_password_token` ON `users` (`reset_password_token`)
+  [1m[36m (33.0ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140604214129')[0m
+Migrating to CreateRelationships (20140606235331)
+  [1m[35m (65.4ms)[0m  CREATE TABLE `relationships` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `follower_id` int(11), `followed_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (122.3ms)[0m  [1mCREATE INDEX `index_relationships_on_follower_id` ON `relationships` (`follower_id`)[0m
+  [1m[35m (122.3ms)[0m  CREATE INDEX `index_relationships_on_followed_id` ON `relationships` (`followed_id`)
+  [1m[36m (122.3ms)[0m  [1mCREATE UNIQUE INDEX `index_relationships_on_follower_id_and_followed_id` ON `relationships` (`follower_id`, `followed_id`)[0m
+  [1m[35m (33.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140606235331')
+Migrating to CreateGiftRequests (20140610235806)
+  [1m[36m (65.5ms)[0m  [1mCREATE TABLE `gift_requests` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `description` text, `likes` int(11), `dislike` int(11), `public` tinyint(1), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (32.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140610235806')
+Migrating to CreateComments (20140610235829)
+  [1m[36m (64.9ms)[0m  [1mCREATE TABLE `comments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `post_id` int(11), `decription` text, `like` int(11), `dislike` int(11), `final_answer` tinyint(1), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (32.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140610235829')
+Migrating to RenameCommentPost (20140611002007)
+  [1m[36m (0.5ms)[0m  [1mSHOW COLUMNS FROM `comments` LIKE 'post_id'[0m
+  [1m[35m (164.4ms)[0m  ALTER TABLE `comments` CHANGE `post_id` `gift_request_id` int(11) DEFAULT NULL
+  [1m[36m (32.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140611002007')[0m
+Migrating to CreateLikes (20140611002541)
+  [1m[35m (65.3ms)[0m  CREATE TABLE `likes` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `status` varchar(255), `user_id` int(11), `comment_id` int(11), `gift_request_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (32.8ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140611002541')[0m
+Migrating to CreateTags (20140611002847)
+  [1m[35m (65.4ms)[0m  CREATE TABLE `tags` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `name` varchar(255), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (32.7ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140611002847')[0m
+Migrating to RenameDescription (20140611003912)
+  [1m[35m (0.5ms)[0m  SHOW COLUMNS FROM `comments` LIKE 'decription'
+  [1m[36m (165.0ms)[0m  [1mALTER TABLE `comments` CHANGE `decription` `description` text DEFAULT NULL[0m
+  [1m[35m (32.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140611003912')
+Migrating to CreateGiftRequestTagsJoinTable (20140611005839)
+  [1m[36m (65.6ms)[0m  [1mCREATE TABLE `gift_requests_tags` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `gift_request_id` int(11), `tag_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (122.3ms)[0m  CREATE UNIQUE INDEX `index_gift_requests_tags_on_gift_request_id_and_tag_id` ON `gift_requests_tags` (`gift_request_id`, `tag_id`)
+  [1m[36m (33.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140611005839')[0m
+Migrating to ChangeNullableForTimestampsOnThing1sThing2s (20140611010418)
+  [1m[35m (177.3ms)[0m  ALTER TABLE `gift_requests_tags` CHANGE `created_at` `created_at` datetime DEFAULT NULL
+  [1m[36m (167.9ms)[0m  [1mALTER TABLE `gift_requests_tags` CHANGE `updated_at` `updated_at` datetime DEFAULT NULL[0m
+  [1m[35m (32.8ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20140611010418')
+Migrating to ChangeLikeDefaultValue (20140612034618)
+  [1m[36m (0.4ms)[0m  [1mSHOW COLUMNS FROM `gift_requests` LIKE 'likes'[0m
+  [1m[35m (143.1ms)[0m  ALTER TABLE `gift_requests` CHANGE `likes` `like_count` int(11) DEFAULT NULL
+  [1m[36m (0.5ms)[0m  [1mSHOW COLUMNS FROM `comments` LIKE 'like'[0m
+  [1m[35m (177.2ms)[0m  ALTER TABLE `comments` CHANGE `like` `like_count` int(11) DEFAULT NULL
+  [1m[36m (0.5ms)[0m  [1mSHOW COLUMNS FROM `comments` LIKE 'dislike'[0m
+  [1m[35m (166.2ms)[0m  ALTER TABLE `comments` CHANGE `dislike` `dislike_count` int(11) DEFAULT NULL
+  [1m[36m (0.5ms)[0m  [1mSHOW COLUMNS FROM `gift_requests` LIKE 'dislike'[0m
+  [1m[35m (166.3ms)[0m  ALTER TABLE `gift_requests` CHANGE `dislike` `dislike_count` int(11) DEFAULT NULL
+  [1m[36m (33.6ms)[0m  [1mALTER TABLE `gift_requests` CHANGE `like_count` `like_count` int(11) DEFAULT 0[0m
+  [1m[35m (54.7ms)[0m  ALTER TABLE `gift_requests` CHANGE `dislike_count` `dislike_count` int(11) DEFAULT 0
+  [1m[36m (53.8ms)[0m  [1mALTER TABLE `comments` CHANGE `like_count` `like_count` int(11) DEFAULT 0[0m
+  [1m[35m (32.6ms)[0m  ALTER TABLE `comments` CHANGE `dislike_count` `dislike_count` int(11) DEFAULT 0
+  [1m[36m (33.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140612034618')[0m
+Migrating to AddTitleToGiftRequest (20140614211015)
+  [1m[35m (166.5ms)[0m  ALTER TABLE `gift_requests` ADD `title` varchar(255)
+  [1m[36m (32.8ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140614211015')[0m
+Migrating to AddGiftRequestCountToTags (20140614211147)
+  [1m[35m (210.9ms)[0m  ALTER TABLE `tags` ADD `gift_request_count` int(11)
+  [1m[36m (32.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20140614211147')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+Connecting to database specified by database.yml
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-06-14 16:17:18 -0700
+Processing by RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered registrations/new.html.erb within layouts/application (35.3ms)
+Completed 200 OK in 183ms (Views: 111.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /footer.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /signin.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /authentications.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:19 -0700
+Served asset /application.js - 304 Not Modified (36ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2014-06-14 16:17:28 -0700
+Processing by RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"username"=>"chiragkarora", "email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.3ms)[0m  SELECT 1 AS one FROM `users` WHERE `users`.`email` = BINARY 'chiragkarora@gmail.com' LIMIT 1
+  [1m[36mUser Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `users` WHERE `users`.`username` = BINARY 'chiragkarora' LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`confirmation_token` = '6738405bc92282fb7ab923c16de44957b5e0af0d16fdcb6a901bccb227f4ef9c' LIMIT 1
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO `users` (`confirmation_sent_at`, `confirmation_token`, `confirmed_at`, `created_at`, `current_sign_in_at`, `current_sign_in_ip`, `email`, `encrypted_password`, `last_sign_in_at`, `last_sign_in_ip`, `remember_created_at`, `reset_password_sent_at`, `reset_password_token`, `sign_in_count`, `unconfirmed_email`, `updated_at`, `username`) VALUES ('2014-06-14 23:17:28', '6738405bc92282fb7ab923c16de44957b5e0af0d16fdcb6a901bccb227f4ef9c', NULL, '2014-06-14 23:17:28', NULL, NULL, 'chiragkarora@gmail.com', '$2a$10$NS8nZ4acD33.EGXKxqhbJOJOywysVLFU6NrCGmIHocKFpKoNgnVhi', NULL, NULL, NULL, NULL, NULL, 0, NULL, '2014-06-14 23:17:28', 'chiragkarora')[0m
+  Rendered devise/mailer/confirmation_instructions.html.erb (0.7ms)
+
+Sent mail to chiragkarora@gmail.com (2678ms)
+Date: Sat, 14 Jun 2014 16:17:29 -0700
+From: easygift195@gmail.com
+Reply-To: easygift195@gmail.com
+To: chiragkarora@gmail.com
+Message-ID: <539cd8091c565_2ae325fb034350ec@chirag-Inspiron-5537.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome chiragkarora@gmail.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=zS4sjiZismFxY_mbCrLv">Confirm my account</a></p>
+
+  [1m[35m (35.9ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 3810ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:31 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /gift.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /user.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:17:34 -0700
+Served asset /fb.png - 304 Not Modified (1ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=chiragkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 96ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:17:36 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=chiragkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 97ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:18:35 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=chiragkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.3ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 95ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /application.css - 304 Not Modified (46ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:18:37 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=chiragkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:19:02 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (1.2ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 249ms (Views: 93.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /bootstrap.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (4ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /footer.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /signin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /authentications.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /gift.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /user.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:19:03 -0700
+Served asset /fb.png - 304 Not Modified (1ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=chiragkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 96ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /application.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/sign_in?utf8=%E2%9C%93&authenticity_token=iDJLoC1Dff%2FMybA59ohzUUYQb9GZ9OltcT7xBYD1%2FS0%3D&user%5Bemail%5D=chiragkarora%40gmail.com&user%5Bpassword%5D=[FILTERED]&user%5Bremember_me%5D=0&commit=Sign+in" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iDJLoC1Dff/MybA59ohzUUYQb9GZ9OltcT7xBYD1/S0=", "user"=>{"email"=>"chiragkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 97ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:38 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:19:39 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 79ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /footer.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /signin.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /jquery.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /authentications.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /bootstrap.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:39 -0700
+Served asset /application.js - 200 OK (8ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:53:40 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 126ms (Views: 25.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /bootstrap.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /gift.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /user.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:53:41 -0700
+Served asset /fb.png - 304 Not Modified (1ms)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/passwords/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:45 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started POST "/users/password" for 127.0.0.1 at 2014-06-14 16:53:47 -0700
+Processing by Devise::PasswordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v22Gqqlb9fPQMhrp5EvDhLA+O0CvY5cvU4iTPXTE8/c=", "user"=>{"email"=>"samkarora@gmail.com"}, "commit"=>"Send me reset password instructions"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`email` = 'samkarora@gmail.com' LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`reset_password_token` = 'dbe1a5f9ba6ddcbd7787c17dbd85cc908375a2bb8d75c09a82284b42ae284c08' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  UPDATE `users` SET `reset_password_token` = 'dbe1a5f9ba6ddcbd7787c17dbd85cc908375a2bb8d75c09a82284b42ae284c08', `reset_password_sent_at` = '2014-06-14 23:53:48', `updated_at` = '2014-06-14 23:53:48' WHERE `users`.`id` = 3
+  [1m[36m (41.5ms)[0m  [1mCOMMIT[0m
+  Rendered devise/mailer/reset_password_instructions.html.erb (0.9ms)
+
+Sent mail to samkarora@gmail.com (2584ms)
+Date: Sat, 14 Jun 2014 16:53:48 -0700
+From: easygift195@gmail.com
+Reply-To: easygift195@gmail.com
+To: samkarora@gmail.com
+Message-ID: <539ce08cd9e1e_31743fe6f80c686c454f1@chirag-Inspiron-5537.mail>
+Subject: Reset password instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Hello samkarora@gmail.com!</p>
+
+<p>Someone has requested a link to change your password. You can do this through the link below.</p>
+
+<p><a href="http://localhost:3000/users/password/edit?reset_password_token=yDcYzH7sSa9nwHD5kixB">Change my password</a></p>
+
+<p>If you didn't request this, please ignore this email.</p>
+<p>Your password won't change until you access the link above and create a new one.</p>
+
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 3612ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (3ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /signin.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:53:51 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started GET "/users/password/edit?reset_password_token=[FILTERED]" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Processing by Devise::PasswordsController#edit as HTML
+  Parameters: {"reset_password_token"=>"[FILTERED]"}
+  Rendered devise/shared/_links.erb (0.8ms)
+  Rendered devise/passwords/edit.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:53:57 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started PUT "/users/password" for 127.0.0.1 at 2014-06-14 16:54:01 -0700
+Processing by Devise::PasswordsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"v22Gqqlb9fPQMhrp5EvDhLA+O0CvY5cvU4iTPXTE8/c=", "user"=>{"reset_password_token"=>"[FILTERED]", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Change my password"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`reset_password_token` = 'dbe1a5f9ba6ddcbd7787c17dbd85cc908375a2bb8d75c09a82284b42ae284c08' LIMIT 1
+  [1m[36mUser Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM `users` WHERE (`users`.`username` = BINARY 'samkarora' AND `users`.`id` != 3) LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT 1 AS one FROM `users` WHERE (`users`.`username` = BINARY 'samkarora' AND `users`.`id` != 3) LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  UPDATE `users` SET `encrypted_password` = '$2a$10$IlQ7lFCel1Ej4fOs9ya7wOyj4/3P7wHBA2yNoDEKH05iAW.TyYY0C', `reset_password_token` = NULL, `reset_password_sent_at` = NULL, `updated_at` = '2014-06-14 23:54:02' WHERE `users`.`id` = 3
+  [1m[36m (30.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mUPDATE `users` SET `reset_password_token` = 'yDcYzH7sSa9nwHD5kixB', `current_sign_in_at` = '2014-06-14 23:54:02', `sign_in_count` = 2, `updated_at` = '2014-06-14 23:54:02' WHERE `users`.`id` = 3[0m
+  [1m[35m (30.6ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 194ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:02 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:54:03 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:04 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 14.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /bootstrap.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (3ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:05 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+Redirected to http://localhost:3000/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:07 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/profile" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Processing by HomeController#profile as HTML
+  Rendered home/profile.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /footer.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:10 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/userhome" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Processing by HomeController#userhome as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  Rendered home/userhome.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 15.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:36 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"v22Gqqlb9fPQMhrp5EvDhLA+O0CvY5cvU4iTPXTE8/c="}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /signin.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:38 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /bootstrap.js - 304 Not Modified (33ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:54:40 -0700
+Served asset /fb.png - 304 Not Modified (0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:54:43 -0700
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4fHGDW08LMtch2JuwzCu8s3F5g2agQv4tQFdRWLmB+s=", "user"=>{"email"=>"samkarora@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'samkarora@gmail.com' LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2014-06-14 23:54:02', `current_sign_in_at` = '2014-06-14 23:54:43', `sign_in_count` = 3, `updated_at` = '2014-06-14 23:54:43' WHERE `users`.`id` = 3
+  [1m[36m (31.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 139ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:54:43 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:44 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/rhomesign_in" for 127.0.0.1 at 2014-06-14 16:54:48 -0700
+
+ActionController::RoutingError (No route matches [GET] "/users/rhomesign_in"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/chirag/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/chirag/.rvm/gems/ruby-1.9.3-p484@easy-gift/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/userhome" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Processing by HomeController#userhome as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1
+  Rendered home/userhome.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:52 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started DELETE "/users/sign_out" for 127.0.0.1 at 2014-06-14 16:54:53 -0700
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HDEZLfwQJR6IkAROP5WcqoJvR9DsrHsvbFL01qmBg2o="}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-06-14 16:54:53 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 14.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /bootstrap.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:54 -0700
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 18ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/bootstrap.css.map?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /bootstrap.css.map - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.min.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /jquery-ui-1.10.4.custom.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /footer.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/signin.css?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /signin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery-ui-1.10.4.custom.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /jquery-ui-1.10.4.custom.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/autocomplete-rails.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /autocomplete-rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authentications.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /authentications.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gift.png" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /gift.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/user.png" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /user.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/fb.png" for 127.0.0.1 at 2014-06-14 16:54:57 -0700
+Served asset /fb.png - 304 Not Modified (0ms)

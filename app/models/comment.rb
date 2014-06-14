@@ -6,6 +6,7 @@ class Comment < ActiveRecord::Base
   belongs_to :user
 
   validates_presence_of :user_id
+  validates_presence_of :description
 
   validate :one_final_answer, :if => :final_answer_changed?
 

@@ -9,8 +9,8 @@ class CommentsController < ApplicationController
         format.html { redirect_to gift_requests, notice: 'Comment was successfully created.' }
         format.json { render json: @comment, status: :created, location: @comment }
       else
-        format.html { redirect_to gift_requests, notice: 'Failed to create comment.' }
-        format.json { render json: @comment.errors, status: :unprocessable_entity }
+        format.html { redirect_to gift_requests, notice: @comment.errors.full_messages.to_sentence }
+        format.json { render json: @comment.errors.full_messages.to_sentence, status: :unprocessable_entity }
       end
     end
   end
@@ -25,21 +25,21 @@ class CommentsController < ApplicationController
           format.json { render json: @comment, status: :created}
         else
           format.html { 
-            notice = ''
-              @comment.errors.full_messages.each do |message|
-              notice += message
-            end
+            # notice = ''
+            #   @comment.errors.full_messages.each do |message|
+            #   notice += message
+            # end
             unless current_user.id == @comment_gift_request.user.id
               notice += "Unauthorized final answer"
             end
             unless current_user.id != @comment.user.id
               notice += "Can't select your own gift comment as final answer"
             end
-            redirect_to @comment_gift_request, notice: notice
+            redirect_to @comment_gift_request, notice: @comment.errors.full_messages.to_sentence
           }
           format.json { 
             result = {}
-            result[:errors] = @like.errors
+            result[:errors] = @like.errors.full_messages.to_sentence
             result[:status] = false  
             render json: result
           }       

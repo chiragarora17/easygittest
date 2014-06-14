@@ -10,6 +10,7 @@ gem 'mysql2', '~> 0.3.16'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'devise'
+gem 'rails3-jquery-autocomplete'
 
 # Gems used only for assets and not required
 # in production environments by default.

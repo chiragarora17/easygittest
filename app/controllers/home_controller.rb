@@ -8,4 +8,12 @@ class HomeController < ApplicationController
 	def test
 
 	end
+
+	def profile
+
+	end
+
+	def userhome
+
+	end
 end

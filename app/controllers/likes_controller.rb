@@ -26,18 +26,18 @@ class LikesController < ApplicationController
 	      	}
 	      else
 	        format.html {
-	        	notice = ''
-	        	@like.errors.full_messages.each do |message|
-				    notice += message
-				end
+	   #      	notice = ''
+	   #      	@like.errors.full_messages.each do |message|
+				#     notice += message
+				# end
 				if current_user.id == post_or_comment.user.id
 					notice += "Can't like your own comment or post"
 				end
-	        		redirect_to gift_request, notice: notice
+	        		redirect_to gift_request, notice: @like.errors.full_messages.to_sentence
 	        }
 	        format.json {
 	      		result = {}
-	      		result[:errors] = @like.errors
+	      		result[:errors] = @like.errors.full_messages.to_sentence
 	      		result[:status] = false	 
 	      		render json: result  
 	        }

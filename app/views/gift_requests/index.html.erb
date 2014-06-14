@@ -7,16 +7,24 @@
     <th></th>
   </tr>
 
-<% @gift_requests.each do |gift_request| %>
-  <tr>
-    <td><%= gift_request.description %></td>
-    <td><%= link_to 'Show', gift_request %></td>
-    <td><%= link_to 'Edit', edit_gift_request_path(gift_request) %></td>
-    <td><%= link_to 'Destroy', gift_request, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
+  <% @gift_requests.each do |gift_request| %>
+    <tr>
+      <td><%= gift_request.title %></td>
+      <td><%= link_to 'Show', gift_request %></td>
+      <td><%= link_to 'Edit', edit_gift_request_path(gift_request) %></td>
+      <td><%= link_to 'Destroy', gift_request, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+
 </table>
 
 <br />
 
 <%= link_to 'New Gift request', new_gift_request_path %>
+
+<h1>Welcome!</h1>
+<%= form_tag do %>
+  <%=autocomplete_field_tag 'Title', '', 'gift_requests/autocomplete_gift_request_title', :update_elements => {:id => '#id_element', :slogan => '#some_other_element'} %>
+<% end %>
+<p id='id_element'></p>
+<p id='some_other_element'></p>

@@ -18,9 +18,13 @@ EasyGift::Application.routes.draw do
   match 'users/update_password' => 'users#update_password'
   match 'users/generate_new_password_email' => 'users#generate_new_password_email'
   post 'gift_requests/:id' => 'comments#create'
+  match 'userhome' => 'home#userhome'
   # gift request  match 'gift_requests/:id' => 'comments#create', :via => [:post]
   
-  resources :gift_requests
+  resources :gift_requests do
+    get :autocomplete_gift_request_title, :on => :collection
+  end
+  # match 'gift_requests/autocomplete_gift_request_title'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

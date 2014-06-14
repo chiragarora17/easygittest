@@ -1,5 +1,6 @@
 class GiftRequestsController < ApplicationController
   before_filter :authenticate_user!
+  autocomplete :gift_request, :title, :extra_data => [:description]
   # GET /gift_requests
   # GET /gift_requests.json
   def index
@@ -50,8 +51,8 @@ class GiftRequestsController < ApplicationController
         format.html { redirect_to @gift_request, notice: 'Gift request was successfully created.' }
         format.json { render json: @gift_request, status: :created, location: @gift_request }
       else
-        format.html { render action: "new" }
-        format.json { render json: @gift_request.errors, status: :unprocessable_entity }
+        format.html { redirect_to '/gift_requests/new', notice: @gift_request.errors.full_messages.to_sentence}
+        format.json { render json: @gift_request.errors.full_messages.to_sentence, status: :unprocessable_entity }
       end
     end
   end
@@ -67,7 +68,7 @@ class GiftRequestsController < ApplicationController
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
-        format.json { render json: @gift_request.errors, status: :unprocessable_entity }
+        format.json { render json: @gift_request.errors.full_messages.to_sentence, status: :unprocessable_entity }
       end
     end
   end
