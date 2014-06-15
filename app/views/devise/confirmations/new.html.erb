@@ -1,4 +1,47 @@
-<h2>Resend confirmation instructions</h2>
+  <style type="text/css">
+body{
+  background-color: #008080;
+  color: #ffffff;
+}
+.inline
+{
+  display: inline;
+  color: black;
+}
+</style>
+  <div class="container">
+<FORM><INPUT type="button" class="btn btn-default" VALUE="Back" onClick="history.go(-1);return true;"></FORM>
+      <div>
+
+<h2>Resend Confirmation Instructions</h2>
+
+      <!-- <form role="form"> -->
+
+<%= form_for(resource, :html => {class: "form-signin"}, as: resource_name, url: confirmation_path(resource_name), html: { method: :post }) do |f| %>
+  <%= devise_error_messages! %>
+
+ <div style="display:inline" >
+      <div>
+       <h4> <%= f.label :Email, :for => "email", class: "label label-default"  %></h4>
+        <%= f.email_field :email, autofocus: true, :required => "true",:placeholder => "Email Address", class: "inline" %>
+        </div><br />
+     
+      <%= f.submit "Resend confirmation instructions", class: "btn  btn-primary border" %><br />
+           
+
+      </div>
+
+	<% end %>
+ 		<br /><br /><br />
+      <!-- </form> -->
+
+
+     </div>
+  </div>
+
+
+
+<!-- <h2>Resend confirmation instructions</h2>
 
 <%= form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post }) do |f| %>
   <%= devise_error_messages! %>
@@ -9,4 +52,4 @@
   <div><%= f.submit "Resend confirmation instructions" %></div>
 <% end %>
 
-<%= render "devise/shared/links" %>
+ -->

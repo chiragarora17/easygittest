@@ -1,27 +1,37 @@
 <title>Sign Up</title>
 
 <style type="text/css">
-body{
-  background-color: #008080;
-  color: #ffffff;
-}
 .inline
 {
   display: inline
 }
+body{
+  background-color: #008080;
+  color: #ffffff;
+}
+@media {
+  html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-x: scroll; 
+    overflow-y: scroll;
+  }
+}
+
+.container {
+    width: 1024px;
+    display: block;
+}
+
 </style>
   <div class="container">
 
 <%- if controller_name != 'sessions' %>
   <%= link_to "Sign In", new_session_path(resource_name), class: "btn btn-primary signupbutton border" %><br/>
+
 <% end -%>
 
 <%= image_tag 'givemegift.png', :alt => 'lgo', width:"300", height:"300", style: "top:200px;position:absolute;"  %>
         <div class="login-screen" >
-          <div class="login-icon">
-
-            <h3  class="col-lg-1 col-centered" >Welcome to Easy Gifts</h3>
-          </div>
 
             
 

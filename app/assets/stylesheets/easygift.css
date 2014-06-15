@@ -1,0 +1,23 @@
+    .col-centered{
+    float: none;
+    padding-left: 450px;
+    display: inline;
+    margin: 0 auto;
+}
+
+.signupbutton{
+  position:absolute; left: 1100px;top:100px;
+}
+
+.white
+{
+  color: #ffffff;
+  text: #ffffff;
+}
+
+.border
+{
+border-style:solid;
+border-color:#ffffff;
+background-color: #2B3856;
+}

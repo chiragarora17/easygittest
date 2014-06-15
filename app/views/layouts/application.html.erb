@@ -5,6 +5,20 @@
   .change {
     color: #ffffff ;
   }
+
+@media {
+  html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-x: scroll; 
+    overflow-y: scroll;
+  }
+}
+
+.container {
+    width: 1024px;
+    display: block;
+}
+
   </style>
   <title>EasyGift</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
@@ -47,7 +61,15 @@
       </div>
     </div>
 
-    <h4><%= flash[:notice] if flash[:notice] %> </h4>
+    <h4>
+      <!-- <%= flash[:notice] if flash[:notice] %> 
+    -->
+    <% if flash[:notice] %>
+      <script type="text/javascript">
+      alert("<%= flash[:notice] if flash[:notice] %>");
+    </script>
+    <% end %>
+    </h4>
 <!--     <p class="notice"><%= notice %></p> -->
     <p class="alert"><%= alert %></p>
 

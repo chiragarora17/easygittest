@@ -2,9 +2,9 @@
     .col-centered{
     float: none;
     padding-left: 450px;
-    display: inline;
-    margin: 0 auto;
+    display: inliauto;
 }
+
 body{
   background-color: #008080;
   color: #ffffff;
@@ -18,7 +18,17 @@ body{
   color: #ffffff;
   text: #ffffff;
 }
-
+@media {
+  html {
+    overflow: -moz-scrollbars-vertical; 
+    overflow-x: scroll; 
+    overflow-y: scroll;
+  }
+}
+.container {
+    width: 1024px;
+    display: block;
+}
 .border
 {
 border-style:solid;
@@ -31,13 +41,8 @@ background-color: #2B3856;
   <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
   <%= link_to "Sign up", new_registration_path(resource_name), class: "btn btn-primary signupbutton border" %><br/>
 <% end -%>
-<%= image_tag 'gift.png', :alt => 'lgo', width:"300", height:"300", style: "top:200px;position:absolute;"  %>
+<%= image_tag 'gift.png', :alt => 'lgo', width:"300", height:"300", style: "top:180px;position:absolute;"  %>
         <div class="login-screen" >
-          <div class="login-icon">
-
-            <h3  class="col-lg-1 col-centered" >Welcome to Easy Gifts</h3>
-          </div>
-
             
 
       <div class="login-form" >
@@ -71,7 +76,7 @@ background-color: #2B3856;
 
       <% end %> 
       <%= render "devise/shared/links" %>
-
+<br/><br/>
            </div>
   </div>
 </div>    
